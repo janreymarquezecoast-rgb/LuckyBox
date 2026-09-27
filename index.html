@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuckyBox</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎁 LuckyBox</h1>
+
+        <p>Open a box and test your luck!</p>
+
+        <div class="box">🎁</div>
+
+        <button id="openButton">OPEN BOX</button>
+        <button id="resetButton">RESET PROGRESS</button>
+
+        <div id="result">
+            Your reward will appear here.
+        </div>
+<div class="stats">
+    <h2>📊 Statistics</h2>
+
+    <p>Boxes Opened: <span id="boxesOpened">0</span></p>
+    <p>Common: <span id="commonCount">0</span></p>
+    <p>Uncommon: <span id="uncommonCount">0</span></p>
+    <p>Rare: <span id="rareCount">0</span></p>
+    <p>Epic: <span id="epicCount">0</span></p>
+    <p>Legendary: <span id="legendaryCount">0</span></p>
+</div>
+<div class="collection">
+    <h2>📖 Collection</h2>
+    <div id="collectionList"></div>
+</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
